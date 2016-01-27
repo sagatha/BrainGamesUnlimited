@@ -4,7 +4,7 @@ import sudoku
 
 '''
 Graphical User Interface by: alcmenem
-Event Handling by: akasapis
+Event Handling by: AlexKasapis
 '''
 
 def main():

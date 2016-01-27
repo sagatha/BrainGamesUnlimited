@@ -2,12 +2,12 @@ import random
 
 '''
 Algorithm by: alcmenem
-Algorithm implementation: akasapis, alcmenem
+Algorithm implementation: AlexKasapis, alcmenem
 '''
 
 def shuffleSet(numberSets, j):
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Copies the 1st, 2nd or 3rd set of 3 numbers from the first row of the numberSets
     array, swaps twice this small array and returns it.
     For example if:
@@ -28,7 +28,7 @@ def shuffleSet(numberSets, j):
 
 def checkValidation(numberSets, tempSet, i, j):
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Gets the numberSets 2D array, the i and j coords to the numberSets and the tempSet and
     checks whether the tempSet and the numberSet combinations are unique. For example the
     combinations can be:
@@ -43,7 +43,7 @@ def checkValidation(numberSets, tempSet, i, j):
 
 def getNumberSets():
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Create the 3x9 array filled with the number sets that will be used to fill
     the sudoku table. These will be 3 sets of 3 numbers, in 3 unique combinations.
     Final example can be:
@@ -78,7 +78,7 @@ def getNumberSets():
 
 def getSets(numberSets, setsNumber):
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Gets the numberSets 2D array and which one of the 3 sets of combinations the
     program wants. For example, if:
     1 5 3 | 8 2 9 | 7 6 4
@@ -97,7 +97,7 @@ def getSets(numberSets, setsNumber):
 
 def getEmptyRow(sudokuTable, bigRow):
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Gets the main sudoku table, which is being filled, and one of the three main rows
     (big block) and returns a random row of that block the is not yet filled with numbers.
     '''
@@ -109,7 +109,7 @@ def getEmptyRow(sudokuTable, bigRow):
 
 def fillTable(sudokuTable, numberSets):
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Fills the sudoku table with the cycle algorithm.
     '''
     for setsNumber in range(3):
@@ -125,7 +125,7 @@ def fillTable(sudokuTable, numberSets):
 
 def createFullTable():
     '''
-    Author: akasapis
+    Author: AlexKasapis
     Create the numberSets and initialize the sudoku table, and then call the fillTable method
     to fill the table with the sets.
     '''
