@@ -1,8 +1,8 @@
 import random
 
 '''
-Algorithm by: amichalo
-Algorithm implementation: akasapis, amichalo
+Algorithm by: alcmenem
+Algorithm implementation: akasapis, alcmenem
 '''
 
 def shuffleSet(numberSets, j):
@@ -136,7 +136,7 @@ def createFullTable():
 
 def prepareSudokuTable(number):
     '''
-    Author: amichalo
+    Author: alcmenem
     Get the full table with the createFullTable function and then randomly copy numbers from
     the full table to the empty one.
     '''

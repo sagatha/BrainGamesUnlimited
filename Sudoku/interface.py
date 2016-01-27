@@ -3,7 +3,7 @@ import os, sys
 import sudoku
 
 '''
-Graphical User Interface by: amichalo
+Graphical User Interface by: alcmenem
 Event Handling by: akasapis
 '''
 
